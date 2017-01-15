@@ -20,7 +20,7 @@ class App extends React.Component {
   }
 
   addFish(fish) {
-    // update our state
+    // update the fish state in order
     const fishes = {...this.state.fishes};
     // add in our new fish
     const timestamp = Date.now();
